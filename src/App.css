@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.logo img{
+  height: 5rem;
+  border-radius: 100px;
+  margin: 0 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links{
+    text-align: center;
+    align-content: center;
 }
+
+.links a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.signIn{
+    padding: 1rem;
+    border: none;
+    width: 6rem;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    justify-items: center; 
+    align-items: center; 
+    /* background-image: url('../src//img/library.jpg'); */
+    /* background-size: cover;  */
+    /* background-position: center;  */
+    padding: 5rem 0;
+  }
+  .card{
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: #ccc;
+    width: 210px;
+    height: 25rem;
+  }
+  .bookimg{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+
+  }
+
+  .bookcontent{
+    text-align: center;
+  }
+  .booktitle{
+    height: 5rem;
+  }
+  .bookauthor{
+    font-size: 1rem;
+    font-weight: 400;
+    height: 2rem;
+  }
+
+
+  .buy-button{
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(75, 233, 75);
+    cursor: pointer;
+  }
+
+  .bookcontent button{
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(75, 233, 75);
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(75, 233, 75);
+    cursor: pointer;
+  }
+
+  .BookNow{
+    display: flex;
+  }
+
+  .booking-image{
+    width: 50vw;
+    padding: 5rem;
+    height: 50vh;
+  }
+
+  .booking-image img{
+    width: 100%;
+  }
+
+  .booking-summary{
+    width: 50vw;
+    padding: 5rem;
+    
+  }
+
+  .booking-summary p{
+    font-size: 1.3rem;
+  }
+
+  
